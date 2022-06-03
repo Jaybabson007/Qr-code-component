@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Outfit:wght@100;400;700&family=Poppins:wght@300&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:hsl(212, 45%, 89%);
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.container {
+    max-height: 37.5rem;
+    max-width: 37.5rem;
+    padding: 1rem;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    overflow: hidden;
+    box-shadow: 0 7px 30px rgba(52, 31, 97, 0.1);
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin: 0;
+    padding: 0;
+}
+.last-header {
+    margin-bottom: 1rem;
+}
+p {
+    color: hsl(220, 15%, 55%);
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+img {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 250px;
+   border-radius: 15px;
+   
+   margin-bottom: 1rem;
+   
+}
+.content {
+    margin-bottom: 1rem;
+}
